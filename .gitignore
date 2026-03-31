@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.prototxt
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Data & Config
+.env
+data/
+logs/
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+!Dockerfile
+!docker-compose.yml
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
